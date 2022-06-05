@@ -433,6 +433,84 @@ iframe {
   height: 500px;
 }
 
+footer {
+  display: grid;
+  grid-template-rows: 90% 40%;
+  z-index: 50;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    grid-template-rows: 100% 30%;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  footer {
+    display: grid;
+    grid-template-rows: 90% 20%;
+  }
+}
+
+.footer__upperBx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 600px) {
+  .footer__upperBx {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer__littleBx {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+.footer__littleBx img {
+  width: 60px;
+}
+.footer__littleBx p {
+  line-height: 10px;
+}
+@media screen and (max-width: 600px) {
+  .footer__littleBx {
+    right: 0;
+  }
+}
+
+.footer__littleBx__text {
+  margin-top: 20px;
+}
+
+.footer__redes {
+  background-color: black;
+  display: flex;
+}
+.footer__redes ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.footer__redes img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 40px 10px 40px;
+}
+@media screen and (max-width: 550px) {
+  .footer__redes img {
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer__redes {
+    width: 100%;
+  }
+}
+
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
