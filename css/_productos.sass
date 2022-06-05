@@ -1,0 +1,93 @@
+.banner 
+    display: none
+
+    @media screen and (max-width: 560px)
+        display: flex
+
+.prod1, .prod2
+    overflow: hidden
+    position: relative
+
+.prod2 
+    bottom: 3px 
+
+.video1, .video2 
+    width: auto
+    overflow: hidden
+    position: relative
+    left: -260px
+    width: 148%
+
+    @media screen and (max-width: 560px) 
+        display: none
+
+.floating 
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: absolute
+    padding: 0 3%
+    width: 100%
+    z-index: 3
+    top: 30%
+
+    @media screen and (max-width: 920px)
+        top: 5%
+    
+    @media screen and (max-width: 560px)
+        top: 20%
+
+.prod__txt 
+    width: 55%
+    color: rgb(92, 92, 92)
+    color: #444
+    text-align: center
+    font-size: 16px
+    background: rgba( 255, 255, 255, 0.65 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 3.5px )
+    -webkit-backdrop-filter: blur( 3.5px )
+    border-radius: 10px
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    letter-spacing: 1px
+    line-height: 25px
+    margin-bottom: 10px
+
+    h2
+        font-size: 1.6em
+        letter-spacing: 3px
+        margin-bottom: 15px
+        margin-top: 15px
+        @media screen and (max-width: 705px)
+            font-size: 1.2em
+
+
+    @media screen and (max-width: 705px)
+        width: 95%
+        margin-bottom: 3px
+        font-size: 13px
+    
+    @media screen and (max-width: 560px)
+        width: 50%
+    
+    p
+        @media screen and (max-width: 560px)
+            display: none
+
+.btn2
+    @media screen and (max-width: 705px) 
+        font-size: 13px
+        margin: 2px
+    
+    @media screen and (max-width: 560px) 
+        width: 50%
+
+
+.banner2
+    @media screen and (max-width: 560px)  
+        position: relative
+        right: 400px
+
+
+
+

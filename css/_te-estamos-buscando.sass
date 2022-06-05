@@ -1,0 +1,124 @@
+.section1_3
+    color: white
+    
+    div
+        display: grid
+        grid-template-columns: 90px 30px 85px, 50px
+        margin-bottom: 40px
+        margin-top: 45px
+
+        span
+            display: flex
+            justify-content: center
+        
+        h1
+            display: flex
+            justify-content: center
+        
+        h2
+            display: flex
+            justify-content: center
+        
+        p
+            display: flex
+            justify-content: center
+            margin-top: 10px
+            @media screen and (max-width: 400px)
+                text-align: center
+
+    
+
+.btn-modif2
+    width: 240px
+    position: relative 
+    left: 15px
+
+.section2_3
+    position: relative 
+
+.hr-visionly
+    width: 100%
+    margin-bottom: 390px
+
+    @media screen and (max-width: 1022px)
+        width: 100%
+        margin-bottom: 450px
+
+    @media screen and (max-width: 926px)
+        margin-bottom: 410px
+
+    @media screen and (max-width: 720px)
+        margin-bottom: 0
+
+
+.jobs_container
+    display: grid
+    height: 520px
+    width: 75%
+    position: absolute 
+    top: 45%
+    left: 0
+    right: 0
+    margin: auto
+    color: white
+    border-style: solid
+    border-color: white
+    background: rgba( 255, 255, 255, 0.5 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 2.5px )
+    -webkit-backdrop-filter: blur( 2.5px )
+    border-radius: 10px
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+    @media screen and (max-width: 926px)
+        top: 35%
+        width: 85%
+
+    @media screen and (max-width: 720px)
+        display: flex
+        flex-direction: column
+        position: relative
+        width: 100%
+        height: 100%
+
+.jobs_grid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+    row-gap: 10%
+    justify-items: center
+    position: relative
+    top: 40px
+
+    @media screen and (max-width: 720px)
+        display: flex 
+        flex-direction: column
+        row-gap: 15px 
+        top: 0
+        align-items: center
+        margin: 20px 0
+
+.job
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 65%
+    height: 150%
+    background: rgba( 99, 26, 109, 0.6 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 2.5px )
+    -webkit-backdrop-filter: blur( 2.5px )
+    border-radius: 10px
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+    img
+        width: 80px
+        height: 80px
+    
+    &:hover
+        animation: pulsate 1s ease-in-out infinite
+
+    @media screen and (max-width: 720px)
+        padding: 15px 0
+        width: 50%

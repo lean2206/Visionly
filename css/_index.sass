@@ -1,0 +1,46 @@
+.texto-principal
+    text-align: center
+
+.btn-mine
+    background-color: white
+    border: none  
+    font-size: 1.1em 
+    color: rgb(92, 92, 92)
+    border-radius: 50px
+    padding: 10px
+    width: 180px
+    margin-top: 15px
+    margin-right: 15px
+    margin-left: 15px
+
+    &:hover 
+        animation: pulsate 1s ease-in-out infinite
+        background: rgb(255, 255, 255)
+        backdrop-filter: blur( 4.5px )
+        -webkit-backdrop-filter: blur( 4.5px )
+        color: black
+
+.seccion2__clientes
+    display: flex
+    flex: row nowrap
+    align-items: center 
+    justify-content: space-around
+    background-color: #DC262B
+    height: 150px
+    width: 100%
+    
+    img
+        width: 75px
+        height: 75px
+
+        &:hover
+            transition: 0.5s
+            position: relative 
+            bottom: 20px 
+
+    @media screen and (max-width: 800px)
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-rows: 1fr 1fr 1fr 
+        height: 340px
+        justify-items: center
