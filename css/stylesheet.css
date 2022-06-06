@@ -146,7 +146,7 @@ body {
   font-size: 16px;
   background: rgba(255, 255, 255, 0.65);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -265,7 +265,7 @@ body {
   text-align: center;
   color: white;
   background: rgba(255, 255, 255, 0.65);
-  backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(3.5px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 10px;
@@ -276,7 +276,7 @@ body {
 }
 .design-tarj:hover {
   transition: 0.5s ease-in-out;
-  animation: pulsate 1s ease-in-out;
+  animation: pulsate 1s ease-in-out infinite;
 }
 
 .section1_3 {

@@ -1,3 +1,4 @@
+@import 'variables'
 .secc2 
     display: grid
     grid-template-columns: 1fr 1fr
@@ -40,11 +41,11 @@
     color: white
     text-align: center
     background: rgba( 13, 128, 213, 0.6 )
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
-    backdrop-filter: blur( 2.5px )
+    box-shadow: $box-shadow
+    backdrop-filter: $backdrop-filter
     -webkit-backdrop-filter: blur( 2.5px )
-    border-radius: 10px
-    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    border-radius: $border-radius
+    border: $border
 
     h2
         font-size: 1.2em
@@ -55,18 +56,18 @@
     text-align: center
     color: white
     background: rgba( 255, 255, 255, 0.65)
-    backdrop-filter: blur( 3.5px )
+    backdrop-filter: $backdrop-filter
     -webkit-backdrop-filter: blur( 3.5px )
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
-    border-radius: 10px
-    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    box-shadow: $box-shadow
+    border-radius: $border-radius
+    border: $border
 
     p
         font-size: 25px
     
     &:hover
         transition: 0.5s ease-in-out
-        animation: pulsate 1s ease-in-out
+        animation: $animation
 
 
 

@@ -1,3 +1,4 @@
+@import 'variables'
 .section1_3
     color: white
     
@@ -64,11 +65,11 @@
     border-style: solid
     border-color: white
     background: rgba( 255, 255, 255, 0.5 )
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
-    backdrop-filter: blur( 2.5px )
+    box-shadow: $box-shadow
+    backdrop-filter: $backdrop-filter
     -webkit-backdrop-filter: blur( 2.5px )
-    border-radius: 10px
-    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    border-radius: $border-radius
+    border: $border
 
     @media screen and (max-width: 926px)
         top: 35%
@@ -106,18 +107,18 @@
     width: 65%
     height: 150%
     background: rgba( 99, 26, 109, 0.6 )
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
-    backdrop-filter: blur( 2.5px )
+    box-shadow: $box-shadow
+    backdrop-filter: $backdrop-filter
     -webkit-backdrop-filter: blur( 2.5px )
-    border-radius: 10px
-    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    border-radius: $border-radius
+    border: $border
 
     img
         width: 80px
         height: 80px
     
     &:hover
-        animation: pulsate 1s ease-in-out infinite
+        animation: $animation
 
     @media screen and (max-width: 720px)
         padding: 15px 0
