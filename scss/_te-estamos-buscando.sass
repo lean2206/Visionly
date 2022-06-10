@@ -1,4 +1,10 @@
 @import 'variables'
+
+@mixin flex-center
+    display: flex
+    justify-content: center
+    
+
 .section1_3
     color: white
     
@@ -9,20 +15,17 @@
         margin-top: 45px
 
         span
-            display: flex
-            justify-content: center
+            @include flex-center
+            
         
         h1
-            display: flex
-            justify-content: center
+            @include flex-center
         
         h2
-            display: flex
-            justify-content: center
+            @include flex-center
         
         p
-            display: flex
-            justify-content: center
+            @include flex-center
             margin-top: 10px
             @media screen and (max-width: 400px)
                 text-align: center
@@ -85,7 +88,7 @@
 .jobs_grid
     display: grid
     grid-template-columns: 1fr 1fr 1fr
-    grid-template-rows: 1fr 1fr 1fr
+    grid-template-rows: 1fr 1fr
     row-gap: 10%
     justify-items: center
     position: relative
@@ -100,9 +103,8 @@
         margin: 20px 0
 
 .job
-    display: flex
+    @include flex-center
     flex-direction: column
-    justify-content: center
     align-items: center
     width: 65%
     height: 150%

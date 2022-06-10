@@ -226,13 +226,13 @@ body {
 }
 
 .number {
+  display: flex;
+  justify-content: center;
   position: absolute;
   z-index: 15;
   left: 5%;
   bottom: 70%;
-  display: flex;
   align-items: center;
-  justify-content: center;
   width: 50px;
   height: 50px;
   background-color: white;
@@ -241,8 +241,8 @@ body {
 
 .tarjeta__design {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   padding: 5% 5%;
@@ -252,7 +252,7 @@ body {
   background: rgba(13, 128, 213, 0.6);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -265,9 +265,9 @@ body {
   text-align: center;
   color: white;
   background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(3.5px);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -380,7 +380,7 @@ body {
 .jobs_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   row-gap: 10%;
   justify-items: center;
   position: relative;
@@ -399,8 +399,8 @@ body {
 
 .job {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 65%;
   height: 150%;
