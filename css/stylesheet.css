@@ -488,29 +488,13 @@ footer {
 .footer__redes {
   background-color: black;
   display: flex;
-  /* estos media queries son para el index */
-  /* -------------------------------------- */
-}
-.footer__redes ul {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
 }
 .footer__redes img {
   width: 40px;
   height: 40px;
-  margin: 10px 40px 10px 40px;
-}
-@media screen and (max-width: 550px) {
-  .footer__redes {
-    margin: 0 10px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .footer__redes {
-    width: 100%;
-  }
 }
 
 @property --rotate {
