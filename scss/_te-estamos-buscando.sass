@@ -38,7 +38,9 @@
     left: 15px
 
 .section2_3
-    position: relative 
+    position: relative
+    @media screen and (max-width: 1200px)
+        margin-bottom: 50px
 
 .hr-visionly
     width: 100%
@@ -74,6 +76,7 @@
     border-radius: $border-radius
     border: $border
 
+
     @media screen and (max-width: 926px)
         top: 35%
         width: 85%
@@ -89,10 +92,13 @@
     display: grid
     grid-template-columns: 1fr 1fr 1fr
     grid-template-rows: 1fr 1fr
-    row-gap: 10%
+    row-gap: 5%
     justify-items: center
     position: relative
-    top: 40px
+    top: 25px
+    right: 20px
+
+
 
     @media screen and (max-width: 720px)
         display: flex 
@@ -103,11 +109,7 @@
         margin: 20px 0
 
 .job
-    @include flex-center
     flex-direction: column
-    align-items: center
-    width: 65%
-    height: 150%
     background: rgba( 99, 26, 109, 0.6 )
     box-shadow: $box-shadow
     backdrop-filter: $backdrop-filter
@@ -118,10 +120,11 @@
     img
         width: 80px
         height: 80px
+        
     
     &:hover
         animation: $animation
 
-    @media screen and (max-width: 720px)
+/*     @media screen and (max-width: 720px)
         padding: 15px 0
-        width: 50%
+        width: 50% */

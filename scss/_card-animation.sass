@@ -4,8 +4,9 @@
     inherits: false
 
 :root 
-    --card-height: 30vh
-    --card-width: calc(var(--card-height) / 0.7)
+    --card-height: 80%
+    --card-width: calc(var(--card-height) / 1) 
+    
 
   
 .card 
@@ -43,7 +44,8 @@
         left: -2%
         animation: spin 2.5s linear infinite
 
-    &::after
+/*    Lo elimino porque me afectaba el responsive
+        &::after
         position: absolute
         content: ""
         top: calc(var(--card-height) / 6)
@@ -58,7 +60,7 @@
         background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2)
         opacity: 1
         transition: opacity .5s
-        animation: spin 2.5s linear infinite
+        animation: spin 2.5s linear infinite */
            
 .card2
     background: #191c29
