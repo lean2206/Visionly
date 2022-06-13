@@ -1,4 +1,4 @@
-#MEJORAS DE SEO IMPLEMENTADAS EN MI PÁGINA
+#MEJORAS DE SEO IMPLEMENTADAS EN MI PÁGINA#
 
 1) Agregué etiquetas <meta> description específicas para cada página
 2) Agregué el atributo alt a todas las etiquetas <img>
