@@ -5,11 +5,11 @@
     justify-content: center
 
 @mixin efecto-tarjetas
-    box-shadow: $box-shadow
-    backdrop-filter: $backdrop-filter
+    box-shadow: map-get($estilos,"box-shadow")
+    backdrop-filter: map-get($estilos,"backdrop-filter")
     -webkit-backdrop-filter: blur( 3.5px )
-    border-radius: $border-radius
-    border: $border
+    border-radius: map-get($estilos,"border-radius")
+    border: map-get($estilos,"border")
     
 
 .secc2 
@@ -63,6 +63,7 @@
 .design-tarj 
     text-align: center
     color: white
+    height: 50%
     background: rgba( 255, 255, 255, 0.65)
     @include efecto-tarjetas
     
@@ -72,7 +73,7 @@
     
     &:hover
         transition: 0.5s ease-in-out
-        animation: $animation
+        animation: map-get($estilos,"animation")
 
 
 

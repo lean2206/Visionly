@@ -3,7 +3,12 @@
 @mixin flex-center
     display: flex
     justify-content: center
-    
+
+@mixin estilo
+    box-shadow: map-get($estilos,"box-shadow")
+    backdrop-filter: map-get($estilos,"backdrop-filter")
+    border-radius: map-get($estilos,"border-radius")
+    border: map-get($estilos,"border")
 
 .section1_3
     color: white
@@ -58,6 +63,7 @@
 
 
 .jobs_container
+    @include estilo
     display: grid
     height: 520px
     width: 75%
@@ -70,11 +76,7 @@
     border-style: solid
     border-color: white
     background: rgba( 255, 255, 255, 0.5 )
-    box-shadow: $box-shadow
-    backdrop-filter: $backdrop-filter
     -webkit-backdrop-filter: blur( 2.5px )
-    border-radius: $border-radius
-    border: $border
 
 
     @media screen and (max-width: 926px)
@@ -109,13 +111,11 @@
         margin: 20px 0
 
 .job
+    @include estilo
     flex-direction: column
     background: rgba( 99, 26, 109, 0.6 )
-    box-shadow: $box-shadow
-    backdrop-filter: $backdrop-filter
     -webkit-backdrop-filter: blur( 2.5px )
-    border-radius: $border-radius
-    border: $border
+
 
     img
         width: 80px
@@ -123,7 +123,7 @@
         
     
     &:hover
-        animation: $animation
+        animation: map-get($estilos,"animation")
 
 /*     @media screen and (max-width: 720px)
         padding: 15px 0

@@ -16,7 +16,7 @@ body
 
     &:hover
         color: white
-        animation: $animation
+        animation: map-get($estilos,"animation")
         border-radius: 50px
 
 .nav-item
@@ -33,7 +33,7 @@ body
 
 @keyframes pulsate 
     0%
-        box-shadow: $box-shadow-pulsate
+        box-shadow: map-get($estilos,"box-shadow-pulsate")
     
     100%
-        box-shadow: $box-shadow-pulsate
+        box-shadow: map-get($estilos,"box-shadow-pulsate")

@@ -275,6 +275,7 @@ body {
 .design-tarj {
   text-align: center;
   color: white;
+  height: 50%;
   background: rgba(255, 255, 255, 0.65);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2.5px);
@@ -359,6 +360,10 @@ body {
 }
 
 .jobs_container {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   display: grid;
   height: 520px;
   width: 75%;
@@ -371,11 +376,7 @@ body {
   border-style: solid;
   border-color: white;
   background: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(2.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 @media screen and (max-width: 926px) {
   .jobs_container {
@@ -415,13 +416,13 @@ body {
 }
 
 .job {
-  flex-direction: column;
-  background: rgba(99, 26, 109, 0.6);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  flex-direction: column;
+  background: rgba(99, 26, 109, 0.6);
+  -webkit-backdrop-filter: blur(2.5px);
 }
 .job img {
   width: 80px;
