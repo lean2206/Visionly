@@ -20,12 +20,13 @@
     align-items: center
     text-align: center
     display: flex
-    font-size: 1.5em
+    font-size: 1.7em
     color: white
     cursor: pointer
 
     &:hover
         color: rgb(88 199 250 / 100%)
+        background: #191c29
         transition: color 1s
 
         &:before, &:after
@@ -44,23 +45,6 @@
         left: -2%
         animation: spin 2.5s linear infinite
 
-/*    Lo elimino porque me afectaba el responsive
-        &::after
-        position: absolute
-        content: ""
-        top: calc(var(--card-height) / 6)
-        left: 0
-        right: 0
-        z-index: -1
-        height: 100%
-        width: 100%
-        margin: 0 auto
-        transform: scale(0.8)
-        filter: blur(calc(var(--card-height) / 6))
-        background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2)
-        opacity: 1
-        transition: opacity .5s
-        animation: spin 2.5s linear infinite */
            
 .card2
     background: #191c29
