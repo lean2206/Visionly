@@ -4,6 +4,8 @@ window.addEventListener('load', function(){
         slidesToScroll: 2,
         draggable: true,
         dots: '.carousel__indicadores',
+        dragVelocity: 1.2,
+        rewind: true,
         arrows: {
           prev: '.carousel__anterior',
           next: '.carousel__siguiente'
