@@ -21,28 +21,35 @@
         -webkit-backdrop-filter: blur( 4.5px )
         color: black
 
-
-.seccion2__clientes
-    display: flex
-    flex: row nowrap
-    align-items: center 
-    justify-content: space-around
+.carousel
     background-color: #DC262B
-    height: 150px
-    width: 100%
-    
+    position: relative
+
+.carousel__lista
+    margin-left: 40px
+    margin-right: 54px
+
+.carousel__elemento
+    margin-top: 30px
+    margin-bottom: 30px
     img
-        width: 75px
-        height: 75px
+        width: 90px
+        height: 90px
 
-        &:hover
-            transition: 0.5s
-            position: relative 
-            bottom: 20px 
-
-    @media screen and (max-width: 800px)
-        display: grid
-        grid-template-columns: 1fr 1fr 1fr
-        grid-template-rows: 1fr 1fr 1fr 
-        height: 340px
-        justify-items: center
+.carousel__anterior 
+    position: absolute
+    display: block
+    width: 30px
+    height: 50px
+    border: none
+    top: calc(50% - 35px)
+    cursor: pointer
+    line-height: 40px
+    text-align: center
+    background: none
+    color: black
+    
+    
+.carousel__siguiente
+    @extend .carousel__anterior
+    right: 0

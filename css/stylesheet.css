@@ -138,32 +138,41 @@ body {
   color: black;
 }
 
-.seccion2__clientes {
-  display: flex;
-  flex: row nowrap;
-  align-items: center;
-  justify-content: space-around;
+.carousel {
   background-color: #DC262B;
-  height: 150px;
-  width: 100%;
-}
-.seccion2__clientes img {
-  width: 75px;
-  height: 75px;
-}
-.seccion2__clientes img:hover {
-  transition: 0.5s;
   position: relative;
-  bottom: 20px;
 }
-@media screen and (max-width: 800px) {
-  .seccion2__clientes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 340px;
-    justify-items: center;
-  }
+
+.carousel__lista {
+  margin-left: 40px;
+  margin-right: 54px;
+}
+
+.carousel__elemento {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.carousel__elemento img {
+  width: 90px;
+  height: 90px;
+}
+
+.carousel__anterior, .carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 50px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  background: none;
+  color: black;
+}
+
+.carousel__siguiente {
+  right: 0;
 }
 
 .banner {
