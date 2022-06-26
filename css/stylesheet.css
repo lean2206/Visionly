@@ -171,6 +171,9 @@ body {
   margin-left: 15px;
   margin-right: 15px;
 }
+.cs1:hover, .cs2:hover, .cs3:hover {
+  box-shadow: 0 6px 6px 6px rgba(17, 0, 170, 0.8274509804), 0 6px 6px 6px rgba(0, 0, 0, 0.23);
+}
 @media screen and (max-width: 760px) {
   .cs1, .cs2, .cs3 {
     width: 80%;
