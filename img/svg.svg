@@ -1,0 +1,48 @@
+<svg width="1264" height="589" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <filter id="a" x="327" y="0" width="610" height="589" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur"/>
+  </filter>
+  <linearGradient id="b" x1="1" y1="0.02292" x2="-0.14128" y2="0.71536">
+   <stop stop-color="#FF5600"/>
+   <stop offset="0.521" stop-color="#fff"/>
+   <stop offset="1" stop-color="#00B2FF"/>
+  </linearGradient>
+  <linearGradient id="c" x1="1.00824" y1="0.01458" x2="-0.15185" y2="0.71912">
+   <stop stop-color="#FF5600"/>
+   <stop offset="1" stop-color="#00B2FF"/>
+  </linearGradient>
+  <linearGradient id="d" x1="1.06849" y1="-0.00875" x2="-0.20574" y2="0.72199">
+   <stop offset="0.089" stop-color="#FF5600"/>
+   <stop offset="0.422" stop-color="#EC8E00"/>
+   <stop offset="0.583" stop-color="#FFEFD7"/>
+   <stop offset="0.854" stop-color="#00B2FF"/>
+  </linearGradient>
+  <linearGradient id="f" x1="0" y1="0.49854" x2="0.99158" y2="0.50041">
+   <stop stop-color="#00B2FF" stop-opacity="0"/>
+   <stop offset="0.615" stop-color="#00B2FF" stop-opacity="0.2"/>
+   <stop offset="1" stop-color="#00B2FF" stop-opacity="0.45"/>
+  </linearGradient>
+  <linearGradient id="e" x1="1" y1="0.5" x2="0.00842" y2="0.5">
+   <stop stop-color="#FF5600" stop-opacity="0"/>
+   <stop offset="0.667" stop-color="#FF5600" stop-opacity="0.2"/>
+   <stop offset="1" stop-color="#FF6B20" stop-opacity="0.45"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g filter="url(#a)" id="svg_1">
+   <rect x="447" y="120" width="370" height="349" rx="20" fill="url(#b)" fill-opacity="0.5" id="svg_2"/>
+  </g>
+  <rect x="450" y="123" width="364" height="343" rx="17" fill="#000" id="svg_3"/>
+  <rect x="450" y="123" width="364" height="343" rx="17" fill="url(#c)" fill-opacity="0.2" id="svg_4"/>
+  <path fill="#ffffff" fill-opacity="0" stroke="url(#d)" stroke-width="6" opacity="undefined" d="m448.99999,138.66666c0,-9.23744 7.76256,-17 17,-17l330,0c9.23744,0 17,7.76256 17,17l0,309c0,9.23744 -7.76256,17 -17,17l-330,0c-9.23744,0 -17,-7.76256 -17,-17l0,-309z" id="svg_5"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" id="svg_7"/>
+  <path d="m1262.33331,399.20965l0,-211.086c0,-0.553 -0.45,-1 -1,-1l-297.128,0a1,1 0 0 1 -1,-0.99l-0.432,-41.128c-0.02,-1.849 -2.322,-2.684 -3.522,-1.277l-124.596,146.044a6,6 0 0 0 0,7.788l124.596,146.044c1.2,1.407 3.502,0.572 3.522,-1.277l0.432,-41.129a1,1 0 0 1 1,-0.989l297.128,0c0.55,0 1,-0.448 1,-1z" fill="url(#e)" id="svg_16"/>
+  <path d="m0,399.543l0,-211.086a1,1 0 0 1 1,-1l297.128,0a1,1 0 0 0 1,-0.99l0.432,-41.128c0.02,-1.849 2.322,-2.684 3.522,-1.277l124.596,146.044a6,6 0 0 1 0,7.788l-124.596,146.044c-1.2,1.407 -3.502,0.572 -3.522,-1.277l-0.432,-41.129a1,1 0 0 0 -1,-0.989l-297.128,0a1,1 0 0 1 -1,-1z" fill="url(#f)" id="svg_28"/>
+  <path d="m45.262,290.468l3.472,-3.472l-3.472,-3.473a0.891,0.891 0 1 1 1.262,-1.261l4.107,4.107a0.891,0.891 0 0 1 0,1.262l-4.108,4.107a0.891,0.891 0 0 1 -1.261,0a0.91,0.91 0 0 1 0,-1.27z" fill="#fff" id="svg_33"/>
+  <path d="m45.262,324.468l3.472,-3.472l-3.472,-3.473a0.891,0.891 0 1 1 1.262,-1.261l4.107,4.107a0.891,0.891 0 0 1 0,1.262l-4.108,4.107a0.891,0.891 0 0 1 -1.261,0a0.91,0.91 0 0 1 0,-1.27z" fill="#fff" id="svg_36"/>
+  <path d="m45.262,358.468l3.472,-3.472l-3.472,-3.473a0.891,0.891 0 1 1 1.262,-1.261l4.107,4.107a0.891,0.891 0 0 1 0,1.262l-4.108,4.107a0.891,0.891 0 0 1 -1.261,0a0.91,0.91 0 0 1 0,-1.27z" fill="#fff" id="svg_39"/>
+  <text xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="24" stroke-width="0" id="svg_15" y="231.5" x="499" fill="#ffffff">Augmented Intelligence</text>
+ </g>
+</svg>
