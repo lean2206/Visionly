@@ -364,17 +364,39 @@ footer {
   }
 }
 
+@media screen and (max-width: 560px) {
+  .multimedia, .multimedia2 {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    --opacidad-negro: 0.05;
+    --opacidad-negro2: 0.9;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro2)));
+    position: relative;
+    width: 95%;
+    height: 440px;
+    color: white;
+    left: 13px;
+  }
+  .multimedia img, .multimedia2 img {
+    position: absolute;
+    z-index: -20;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 .prod1, .prod2 {
   overflow: hidden;
   position: relative;
 }
 
 .prod2 {
-  bottom: 3px;
+  margin-top: -7px;
 }
 
 .video1, .video2 {
-  width: auto;
   overflow: hidden;
   position: relative;
   left: -260px;
@@ -429,12 +451,12 @@ footer {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 777px) {
   .prod__txt h2 {
     font-size: 1.2em;
   }
 }
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 777px) {
   .prod__txt {
     width: 95%;
     margin-bottom: 3px;
@@ -443,16 +465,11 @@ footer {
 }
 @media screen and (max-width: 560px) {
   .prod__txt {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 560px) {
-  .prod__txt p {
-    display: none;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 777px) {
   .btn2 {
     font-size: 13px;
     margin: 2px;
@@ -461,13 +478,6 @@ footer {
 @media screen and (max-width: 560px) {
   .btn2 {
     width: 50%;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .banner2 {
-    position: relative;
-    right: 400px;
   }
 }
 

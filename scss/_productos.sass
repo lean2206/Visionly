@@ -5,25 +5,56 @@
     display: none
 
     @media screen and (max-width: 560px)
-        display: flex
+        display: flex 
+
+.multimedia
+    @media screen and (max-width: 560px)
+        margin-bottom: 20px
+        overflow: hidden
+        border-radius: 20px
+        --opacidad-negro: 0.05
+        --opacidad-negro2: 0.9
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro2)))
+        position: relative
+        width: 95%
+        height: 440px
+        color: white
+        left: 13px
+
+        img
+            position: absolute
+            z-index: -20
+            height: 100%
+            width: 100%
+            object-fit: cover
+
+
+.multimedia2
+    @extend .multimedia
+
 
 .prod1
     overflow: hidden
     position: relative
 
-.prod2
-    @extend .prod1 
-    bottom: 3px 
 
-.video1, .video2 
-    width: auto
+.prod2
+    @extend .prod1
+    margin-top: -7px
+
+.video1 
     overflow: hidden
     position: relative
     left: -260px
     width: 148%
+    
 
     @media screen and (max-width: 560px) 
         display: none
+
+.video2 
+    @extend .video1
+
 
 .floating 
     display: flex
@@ -62,34 +93,26 @@
         letter-spacing: 3px
         margin-bottom: 15px
         margin-top: 15px
-        @media screen and (max-width: 705px)
+        @media screen and (max-width: 777px)
             font-size: 1.2em
 
-    @media screen and (max-width: 705px)
+    @media screen and (max-width: 777px)
         width: 95%
         margin-bottom: 3px
         font-size: 13px
     
     @media screen and (max-width: 560px)
-        width: 50%
-    
-    p
-        @media screen and (max-width: 560px)
-            display: none
+        width: 80%
+
 
 .btn2
-    @media screen and (max-width: 705px) 
+    @media screen and (max-width: 777px) 
         font-size: 13px
         margin: 2px
     
     @media screen and (max-width: 560px) 
         width: 50%
 
-
-.banner2
-    @media screen and (max-width: 560px)  
-        position: relative
-        right: 400px
 
 
 
