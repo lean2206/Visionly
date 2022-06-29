@@ -209,7 +209,7 @@ footer {
   border-radius: 50px;
   padding: 10px;
   width: 180px;
-  margin: 15px 15px 90px 15px;
+  margin: 15px 15px 0px 15px;
 }
 .btn-mine:hover {
   animation: pulsate 1s ease-in-out infinite;
@@ -222,6 +222,7 @@ footer {
 .scheme {
   display: flex;
   justify-content: center;
+  margin-top: 120px;
 }
 .scheme .scheme__desktop {
   position: relative;
@@ -481,14 +482,13 @@ footer {
 
 .seccion1 {
   position: relative;
-  margin-bottom: 100px;
 }
 .seccion1 img {
   position: absolute;
   z-index: -55;
   left: 0;
   width: 100%;
-  height: 150%;
+  height: 77vh;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(3.5px);
@@ -497,9 +497,14 @@ footer {
   border-radius: 0;
   border: none;
 }
+@media screen and (max-width: 760px) {
+  .seccion1 img {
+    height: 100vh;
+  }
+}
 .seccion1 span {
   position: relative;
-  top: 100px;
+  top: 30px;
 }
 .seccion1 span h1 {
   font-size: 2.3em;
@@ -509,10 +514,11 @@ footer {
 }
 .seccion1 .btn-mine {
   position: relative;
-  top: 100px;
+  top: 30px;
 }
 
 .secc2 {
+  overflow-x: hidden;
   margin-top: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -531,7 +537,7 @@ footer {
 
 .tarjeta {
   position: relative;
-  margin: 0;
+  margin-top: 10px;
   width: 80%;
   height: 80%;
 }
