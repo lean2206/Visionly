@@ -519,7 +519,7 @@ footer {
 
 .secc2 {
   overflow-x: hidden;
-  margin-top: 200px;
+  margin-top: 15%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -527,6 +527,7 @@ footer {
 @media screen and (max-width: 760px) {
   .secc2 {
     grid-template-columns: 1fr;
+    margin-top: 50%;
   }
 }
 @media screen and (max-width: 760px) {
