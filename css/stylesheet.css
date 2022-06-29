@@ -750,9 +750,6 @@ footer {
   animation: pulsate 1s ease-in-out infinite;
 }
 
-/*     @media screen and (max-width: 720px)
- *      padding: 15px 0
- *      width: 50% */
 form textarea {
   height: 250px;
 }
