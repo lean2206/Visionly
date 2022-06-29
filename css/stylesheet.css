@@ -193,14 +193,15 @@ footer {
   min-width: 100%;
 }
 
-.first-secc .texto-principal {
+.texto-principal {
   margin-top: 90px;
   text-align: center;
 }
-.first-secc .texto-principal p {
+.texto-principal p {
   font-size: 1.1em;
 }
-.first-secc .btn-mine {
+
+.btn-mine {
   background-color: white;
   border: none;
   font-size: 1.1em;
@@ -210,7 +211,7 @@ footer {
   width: 180px;
   margin: 15px 15px 90px 15px;
 }
-.first-secc .btn-mine:hover {
+.btn-mine:hover {
   animation: pulsate 1s ease-in-out infinite;
   background: rgb(255, 255, 255);
   backdrop-filter: blur(4.5px);
